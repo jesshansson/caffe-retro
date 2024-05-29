@@ -15,7 +15,9 @@ html, body {
 h1 {
   font-family: "Spirax", sans-serif;
   color: darkred;
-  font-size: 5rem;
+  font-size: 6rem;
+  margin-top: 7rem;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
 }
 
 a {
@@ -45,7 +47,7 @@ nav a {
 }
 
 .red {
-  background-color: rgba(139, 0, 0, 0.8);
+  background-color: rgba(139, 0, 0, 0.9);
 }
 
 .section-hot, .section-juicy, .section-cosy{
@@ -62,7 +64,7 @@ nav a {
 }
 
 .first-text,.second-text, .menu, .contact {
-  margin: 3rem;
+  margin: 2rem;
   padding: 1rem 3rem;
   width: 40rem;
   color: white;
@@ -71,6 +73,13 @@ nav a {
   text-align: center;
 }
 
+.first-text {
+  margin: 4rem 20rem 0 0;
+}
+
+.second-text {
+  margin:  3rem 0 0 20rem ;
+}
 .section-hot {
   background-image: url(assets/hot.jpg)
 }
@@ -84,7 +93,7 @@ nav a {
 }
 
 .menu, .contact {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 800px;
   display: flex;
   flex-direction: row;
